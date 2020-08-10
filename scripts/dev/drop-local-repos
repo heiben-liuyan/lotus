@@ -1,5 +1,0 @@
-#!/usr/bin/env sh
-
-set -o xtrace
-
-rm -rf ~/.lotus ~/.lotusminer/ ~/.genesis-sectors ~/.lotusworker
