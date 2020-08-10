@@ -1,0 +1,41 @@
+# Default config:
+SealingDelay = "0h0m1s"
+#
+[API]
+ListenAddress = "/ip4/127.0.0.1/tcp/2348/http"
+#  Timeout = "30s"
+#
+[Libp2p]
+# for develop
+#ListenAddresses = ["/ip4/0.0.0.0/tcp/5460"]
+#AnnounceAddresses = ["/ip4/103.44.253.2/tcp/15460","/ip4/183.240.204.123/tcp/15460"]
+#ListenAddresses = ["/ip4/0.0.0.0/tcp/5470"]
+#AnnounceAddresses = ["/ip4/103.44.253.2/tcp/15471","/ip4/183.240.204.123/tcp/15471"]
+#  ListenAddresses = ["/ip4/0.0.0.0/tcp/0", "/ip6/::/tcp/0"]
+#  ConnMgrLow = 150
+#  ConnMgrHigh = 180
+#  ConnMgrGrace = "20s"
+#
+[Pubsub]
+#  Bootstrapper = false
+#  RemoteTracer = "/ip4/147.75.67.199/tcp/4001/p2p/QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX"
+#
+[Dealmaking]
+#  ConsiderOnlineStorageDeals = true
+#  ConsiderOfflineStorageDeals = true
+#  ConsiderOnlineRetrievalDeals = true
+#  ConsiderOfflineRetrievalDeals = true
+#  PieceCidBlocklist = []
+#  ExpectedSealDuration = "12h0m0s"
+#  Filter = ""
+#
+[Storage]
+#  ParallelFetchLimit: 10
+#  AllowPreCommit1 = true
+#  AllowPreCommit2 = true
+#  AllowCommit = true
+#  AllowUnseal = true
+RemoteSeal = true
+RemoteWnPoSt = true
+RemoteWdPoSt = true
+#

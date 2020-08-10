@@ -1,0 +1,17 @@
+# Default config:
+[API]
+ListenAddress = "/ip4/127.0.0.1/tcp/11234/http"
+#  RemoteListenAddress = ""
+#  Timeout = "30s"
+#
+[Libp2p]
+ListenAddresses = ["/ip4/0.0.0.0/tcp/12340", "/ip6/::/tcp/12340"]
+#ConnMgrLow = 10
+#ConnMgrHigh = 30
+#ConnMgrGrace = "20s"
+#
+[Metrics]
+#  Nickname = ""
+#  HeadNotifs = false
+#  PubsubTracing = false
+#
